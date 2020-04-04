@@ -7,7 +7,7 @@ public class Inheritance {
 	//Eliminate code redundancy 
 	//improve code reusabiltiy
 
-/*
+/*task
  * in test class create an object of Employee, serum Team, Tester and see which
  *  features are available to each object; 
  */
