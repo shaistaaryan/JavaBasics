@@ -8,7 +8,7 @@ public class OverLoadingMain {
 	}
 
 	public static void main(String args) {
-		System.out.println("Method wtih String arguments");
+		System.out.println("Method wtih String arguments"+args);
 	}
 
 	public static void main(String args, String args1) {
