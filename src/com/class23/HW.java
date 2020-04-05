@@ -9,11 +9,16 @@ public class HW {
 	  
 	}
 	
-	public static int area(int a) {
-		int areaS = a * a;
-		System.out.println("Area of suqare is equl to " + areaS);
-		return areaS;
+	public static int areaC(int a) {
+		int areaC = a * a;
+		System.out.println("Area of suqare is equl to " + areaC);
+		return areaC;
 	}
 
-	public static int area(int a)
+	public static int areaB(int a) {
+		int areaB = a+a;
+		System.out.println("Area");
+		return a;
+		
+	}
 }
