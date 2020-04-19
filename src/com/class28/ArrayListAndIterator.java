@@ -27,7 +27,21 @@ public class ArrayListAndIterator {
 		
 		//we want to iterator through the collection
 		Iterator<String> it=sweets.iterator();
+		//iterates in 1 direction
+		while(it.hasNext()) {
+			String element=it.next();
+			if(element.equals("ice cream")){
+				it.remove();
+			}
+		}
 		
+		System.out.println("ArrayList after removering element ");
+		System.out.println(sweets);
+	
+	//I want to get elemet backwards
+		for (int i=sweets.size()-1; i>=0; i--) {
+			System.out.println(sweets.get(i)+";");
+		}
 		if(it.hasNext()) {
 			String element=it.next();
 			System.out.println(element);
@@ -38,6 +52,7 @@ public class ArrayListAndIterator {
 			}
 			
 			//advanced for loop
+			//Iterators/loops in 1 direction 
 			for(String str: sweets) {
 				System.out.println(str);
 			}
